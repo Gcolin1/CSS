@@ -1,0 +1,14 @@
+p{
+    background: rgb(171, 107, 255);
+    padding: 10px 20px;
+}
+
+h1{
+    text-align: center;
+    background: #000d86;
+    color: #f2f2f2;
+    padding: 20px;
+    border-top: #d40000 dashed 5px ;
+    border-bottom: #d40000 dashed 5px ;
+}
+
