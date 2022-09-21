@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+img{
+    width: 300px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row{
+    margin: 50px 0;
+}
+
+.col{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.col2{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+
+
+@media(max-width: 900px){
+    .col{
+        width: 100%;
+    }
+
+    .col2{
+        width: 100%;   
+    }
+
+
+}
