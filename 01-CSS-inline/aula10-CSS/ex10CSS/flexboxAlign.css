@@ -9,15 +9,15 @@ img{
 
 section{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
 .item-1{
-    width: 200px;
-    height: 200px;
+    padding: 10px 0;
     background-color: rgba(255, 0, 0, 0.678);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex: 1;
@@ -26,10 +26,10 @@ section{
 }
 
 .item-2{
-    width: 200px;
-    height: 400px;
+    padding: 20px 0;
     background-color: rgba(0, 255, 200, 0.678);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex: 2;
@@ -37,10 +37,10 @@ section{
 }
 
 .item-3{
-    width: 200px;
-    height: 300px;
+    padding: 50px 0;
     background-color: rgba(0, 255, 64, 0.678);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex: 1;
@@ -48,10 +48,10 @@ section{
 }
 
 .item-4{
-    width: 200px;
-    height: 100px;
-    background-color: rgba(140, 0, 255, 0.678);
+    padding: 80px 0;
+    background-color: rgba(255, 208, 0, 0.678);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex: 1;
