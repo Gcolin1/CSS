@@ -9,7 +9,7 @@ img{
 
 section{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -22,13 +22,13 @@ section{
     justify-content: center;
     flex: 1;
     order: 4;
-    align-self: flex-end;
 }
 
 .item-2{
     padding: 20px 0;
     background-color: rgba(0, 255, 200, 0.678);
     display: flex;
+    align-self: flex-end;
     flex-direction: column;
     align-items: center;
     justify-content: center;
