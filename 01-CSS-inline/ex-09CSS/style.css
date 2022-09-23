@@ -25,7 +25,9 @@ body{
     margin-top: 50px;
 }
 
-
+.img-eren:hover{
+    transform: scale(1.2);
+}
 
 .container::selection{
     background-color: #314A20;
