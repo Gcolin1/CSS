@@ -28,13 +28,16 @@ img{
     margin: 20px 0;
 }
 
-#container-left{
-    display: flex;
+#container-left, #container-right{
+    padding-bottom: 400px;
 }
 
-#container-right{
-    display: flex;
-    flex-direction: row-reverse;
+#container-left figure{
+    float: left;
+}
+
+#container-right figure{
+   float: right;
 }
 
 #container-right figure{
