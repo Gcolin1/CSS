@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>COLLINSFLIX</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand link-light " href="#">Colinsflix</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="20" fill="white" class="bi bi-grip-vertical">
+                <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+              </svg></span>
+          </button>
+          <div class="collapse navbar-collapse p-3" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active link-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Populares</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item link-dark" href="#">Isekai</a></li>
+                  <li><a class="dropdown-item link-dark" href="#">Ação</a></li>
+                  <li><hr class="dropdown-divider link-light"></li>
+                  <li><a class="dropdown-item link-dark" href="#">Mágia</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item"></li>
+                <a class="nav-link link-light" href="#">Contato</a>
+              </li>
+              <li class="nav-item"></li>
+                 <a class="nav-link link-light" href="#">Sobre</a>
+             </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 bg-dark" type="search" placeholder="Pesquisa" aria-label="Search">
+              <button class="btn bg-dark " type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" class="bi bi-search">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">      
+            <img src="img/naruto.jpg" class="d-block w-100 h-25" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/jujutsu.jpg" class="d-block w-100 h-25" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/dragonball.jfif" class="d-block w-100 h-25" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <header class="p-5 bg-dark">
+        <div class="container-fluid- py-5">
+            <h1 class="display-5 fw-bold text-white">Bem vindo ao Collinsflix</h1>
+            <p class="col-md-8 fs-2 text-white">Site de animes mais bem avaliados de 2022</p>
+            <a class="btn btn-light fw-bold btn-lg rounded-5" role="button" href="#">Saiba mais!</a>
+        </div>
+      </header>
+     
+      <p class="fs-1 text-center p-5">Informações sobre flexBox</p>
+      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio asperiores consequatur maiores odit veniam pariatur facere quis voluptates quos ad repudiandae quia corporis eius dolor culpa, voluptate facilis accusamus!</p>
+
+        <div class="p-3 mb-2 bg-primary bg-sucess text-white">.bg-gradient</div>
+        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+        <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+        <div class="p-3 mb-2 bg-body text-dark">.bg-body</div>
+        <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+        <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+
+        
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
